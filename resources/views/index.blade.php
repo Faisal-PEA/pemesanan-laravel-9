@@ -13,11 +13,11 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 
     <!-- Bootstrap -->
-    <link type="text/css" rel="stylesheet" href="{{asset('/')}}dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="{{secure_asset('/')}}dist/css/bootstrap.min.css" />
 
     <!-- Custom stlylesheet -->
-    <link type="text/css" rel="stylesheet" href="{{asset('/')}}dist/css/style.css" />
-    <link rel="shortcut icon" href="{{asset('/')}}dist/img/pngegg.png">
+    <link type="text/css" rel="stylesheet" href="{{secure_asset('/')}}dist/css/style.css" />
+    <link rel="shortcut icon" href="{{secure_asset('/')}}dist/img/pngegg.png">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
