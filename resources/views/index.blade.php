@@ -17,6 +17,7 @@
 
     <!-- Custom stlylesheet -->
     <link type="text/css" rel="stylesheet" href="{{asset('/')}}dist/css/style.css" />
+    <link rel="shortcut icon" href="{{asset('/')}}dist/img/pngegg.png">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,11 +36,7 @@
                 <div class="row">
                     <div class="col-md-7 col-md-push-5">
                         <div class="booking-cta">
-                            <h1>FORM PEMESANAN</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere, soluta magnam consectetur molestias itaque
-                                ad sint fugit architecto incidunt iste culpa perspiciatis possimus voluptates aliquid consequuntur cumque quasi.
-                                Perspiciatis.
-                            </p>
+                            <!-- <h1>FORM PEMESANAN</h1> -->
                         </div>
                     </div>
                     <div class="col-md-4 col-md-pull-7">
