@@ -13,9 +13,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="{{asset('/')}}plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="{{secure_asset('/')}}plugins/fontawesome-free/css/all.min.css">
     <!-- Theme style -->
-    <link rel="stylesheet" href="{{asset('/')}}dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="{{secure_asset('/')}}dist/css/adminlte.min.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
     <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
@@ -38,7 +38,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
             <div class="container">
                 <a href="admin" class="navbar-brand">
-                    <img src="{{asset('/')}}dist/img/pngegg.png" alt="AdminLTE Logo" class="brand-image" style="opacity: .8">
+                    <img src="{{secure_asset('/')}}dist/img/pngegg.png" alt="AdminLTE Logo" class="brand-image" style="opacity: .8">
                     <span class="brand-text font-weight-light">Administrator</span>
                 </a>
 
@@ -139,15 +139,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- REQUIRED SCRIPTS -->
 
     <!-- jQuery -->
-    <script src="{{asset('/')}}plugins/jquery/jquery.min.js"></script>
+    <script src="{{secure_asset('/')}}plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap 4 -->
-    <script src="{{asset('/')}}plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{{secure_asset('/')}}plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- overlayScrollbars -->
-    <script src="{{asset('/')}}plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <script src="{{secure_asset('/')}}plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
     <!-- AdminLTE App -->
-    <script src="{{asset('/')}}dist/js/adminlte.min.js"></script>
+    <script src="{{secure_asset('/')}}dist/js/adminlte.min.js"></script>
     <!-- AdminLTE for demo purposes -->
-    <script src="{{asset('/')}}dist/js/demo.js"></script>
+    <script src="{{secure_asset('/')}}dist/js/demo.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
     <script>
